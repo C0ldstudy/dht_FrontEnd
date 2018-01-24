@@ -27,7 +27,7 @@ npm run e2e
 npm test
 ```
 
-### Screen Shot
+## Screen Shot
 ![](img/pic-1.png)
 ![](img/pic-2.png)
 
