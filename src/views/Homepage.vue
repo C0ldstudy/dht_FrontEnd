@@ -13,14 +13,19 @@
     <!-- <div class="wholeChart">
       <div id="chart" :style="{width: '600px', height: '600px'}"></div>
     </div> -->
+    <foot></foot>
 
   </div>
 
 </template>
 <script>
 import axios from 'axios'
+import foot from '@/components/Foot'
 
 export default {
+  components: {
+    foot,
+  },
   data () {
     return {
       input: '',
@@ -28,7 +33,7 @@ export default {
   },
   mounted () {
     // const myChart = this.$echarts.init(document.getElementById('myChart'));
-    this.drawLine();
+    // this.drawLine();
   },
   methods: {
     search (input) {
@@ -98,7 +103,7 @@ export default {
 
 <style lang="less" scoped>
 .home {
-  margin: 40px;
+  margin: 40px 0;
   .space{
     width: 100%;
     min-height: 36px;

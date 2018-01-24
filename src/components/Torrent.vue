@@ -13,13 +13,10 @@
 </template>
 
 <script>
-import axios from 'axios'
-
 export default {
   name: 'torrent',
   data () {
     return {
-
     }
   },
   props: ['torrentData']

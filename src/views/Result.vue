@@ -8,16 +8,19 @@
       <div class="torResult">
         <torrent class="tor" v-for="i in torrentData" :key="i.id" :torrentData="i"></torrent>
       </div>
+      <foot></foot>
   </div>
 </template>
 
 <script>
 import torrent from '@/components/Torrent'
+import foot from '@/components/Foot'
 import axios from 'axios'
 
 export default {
   components: {
     torrent,
+    foot,
   },
   data() {
     return {
