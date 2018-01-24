@@ -10,9 +10,9 @@
       </el-col>
       <el-col :span="4"><div clas="space"></div></el-col>
     </el-row>
-    <div class="wholeChart">
+    <!-- <div class="wholeChart">
       <div id="chart" :style="{width: '600px', height: '600px'}"></div>
-    </div>
+    </div> -->
 
   </div>
 
